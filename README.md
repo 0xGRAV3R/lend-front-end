@@ -1,5 +1,10 @@
+## Lend Borrow Front End Integration
+```
+Allow users to deposit, withdraw, lend and borrow using a default solana program
+```
+This is a simple lending dApp built on Solana using dapp-scaffold. It allows users to create a bank account, deposit and withdraw SOL, and interact with a default Solana program for lending and borrowing.
 
-# Solana dApp Scaffold Next
+## Solana dApp Scaffold Next
 
 The Solana dApp Scaffold repos are meant to house good starting scaffolds for ecosystem developers to get up and running quickly with a front end client UI that integrates several common features found in dApps with some basic usage examples. Wallet Integration. State management. Components examples. Notifications. Setup recommendations.
 
