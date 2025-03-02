@@ -8,7 +8,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] Clone frontend from scaffold
 - [x] git clone https://github.com/solana-labs/dapp-scaffold.git lend-front-end
 - [x] yarn install
-- [ ] yarn run dev
+- [x] yarn run dev
 
 ## Solana dApp Scaffold Next
 
