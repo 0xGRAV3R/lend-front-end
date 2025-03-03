@@ -9,6 +9,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] git clone https://github.com/solana-labs/dapp-scaffold.git lend-front-end
 - [x] yarn install
 - [x] yarn run dev
+- [ ] /src/views/basics/index.tsx —> change <SignMessage /> to <Lend /> and add import
 
 ## Solana dApp Scaffold Next
 
