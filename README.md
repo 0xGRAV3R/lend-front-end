@@ -24,7 +24,9 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [ ] import useConnection from wallet-adapter-react
 - [ ] Add const createLend -> Program<Solanapdas> would be referencing from types bank.ts
 - [ ] Add const getLends
-- [ ] Add const [lends, setLends] = useState([])
+- [ ] Add const [banks, setBanks] = useState([])
+- [ ] Add const depositBank
+
 
 ## Solana dApp Scaffold Next
 
