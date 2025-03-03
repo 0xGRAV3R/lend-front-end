@@ -60,6 +60,24 @@ export const Lend: FC = () => {
         }
     }
 
+    const depositLend = async (publicKey) => {
+        try {
+            const anchProvider = getProvider()
+            const program = new Program<Solanapdas>(idl_object, anchProvider)
+
+            await program.methods.deposit(new BN(0.1 * web3.LAMPORTS_PER_SOL))
+                .accounts({
+                    bank: publicKey,
+                    user: anchProvider.publicKey
+                }).rpc()
+
+            console.log(" Deposit done: " + publicKey)
+
+        } catch (error) {
+            console.error("Error while depositing to a bank: " + error)
+        }
+    }
+
     return (
         <div className="flex flex-row justify-center">
             <div className="relative group items-center">
