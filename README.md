@@ -14,7 +14,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [ ] Remove the boilerplate from Lend: const onClick 
 - [ ] Change button to null -> onClick={null} in Lend
 - [x] Use anchor library -> yarn add "@coral-xyz/anchor"
-- [ ] import {Program, AnchorProvider, web3, utils, BN, setProvider} from "@coral-xyz/anchor"
+- [x] import {Program, AnchorProvider, web3, utils, BN, setProvider} from "@coral-xyz/anchor"
 
 ## Solana dApp Scaffold Next
 
