@@ -71,7 +71,7 @@ export const Lend: FC = () => {
                     user: anchProvider.publicKey
                 }).rpc()
 
-            console.log(" Deposit done: " + publicKey)
+            console.log(" Deposit Lend done: " + publicKey)
 
         } catch (error) {
             console.error("Error while depositing to a bank: " + error)
