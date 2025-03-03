@@ -1,6 +1,6 @@
 // TODO: Lend
 import { verify } from '@noble/ed25519';
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet, useConnection } from '@solana/wallet-adapter-react';
 import bs58 from 'bs58';
 import { FC, useCallback } from 'react';
 import { notify } from "../utils/notifications";
@@ -17,7 +17,7 @@ const programID = new PublicKey(idl.address)
 
 export const Lend: FC = () => {
     const { publicKey, signMessage } = useWallet();
-
+    const { connection } = useConnection()
 
 
     return (
