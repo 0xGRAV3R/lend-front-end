@@ -17,7 +17,7 @@ const programID = new PublicKey(idl.address)
 
 export const Lend: FC = () => {
     const ourWallet = useWallet();
-    const connection = useConnection()
+    const {connection} = useConnection()
 
     const getProvider = () => {
         const provider = new AnchorProvider(connection, ourWallet, AnchorProvider.defaultOptions())
