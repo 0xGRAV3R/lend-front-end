@@ -41,6 +41,24 @@ export const Lend: FC = () => {
         }
     }
 
+    const getLends = async () => {
+        try {
+            const anchProvider = getProvider()
+            const program = new Program<Solanapdas>(idl_object, anchProvider)
+            Promise.all((await connection.getParsedProgramAccounts(programID)).map(async bank => ({
+                ...(await program.account.bank.fetch(bank.pubkey)),
+                pubkey: bank.pubkey
+            }))).then(banks => {
+                console.log(banks)
+                setBanks(banks)
+            })
+
+
+        } catch (error) {
+            console.error("Error while getting banks: " + error)
+        }
+    }
+
     return (
         <div className="flex flex-row justify-center">
             <div className="relative group items-center">
