@@ -25,6 +25,22 @@ export const Lend: FC = () => {
         return provider
     }
 
+    const createLend = async () => {
+        try {
+            const anchProvider = getProvider()
+            const program = new Program<Solanapdas>(idl_object, anchProvider)
+
+            await program.methods.create("New Lend").accounts({
+                user: anchProvider.publicKey
+            }).rpc()
+
+            console.log("Wow, new lend was created")
+
+        } catch (error) {
+            console.error("Error while creating a lend: " + error)
+        }
+    }
+
     return (
         <div className="flex flex-row justify-center">
             <div className="relative group items-center">
