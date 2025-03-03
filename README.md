@@ -26,7 +26,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [ ] Add const getLends
 - [ ] Add const [banks, setBanks] = useState([])
 - [ ] Add const depositBank
-
+- [ ] After finishing with the functions, we can now adapt the user interface
 
 ## Solana dApp Scaffold Next
 
