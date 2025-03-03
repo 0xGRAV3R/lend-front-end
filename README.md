@@ -18,6 +18,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] copy idl/bank.json and types/bank.ts and paste it inside components folder
 - [ ] import idl from "./bank.json"
 - [ ] import { Solanapdas } from "./bank"
+- [ ] Stringify the idl, add const idl_string, const idl_object, const programID 
 
 ## Solana dApp Scaffold Next
 
