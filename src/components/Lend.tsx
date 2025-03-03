@@ -5,8 +5,14 @@ import bs58 from 'bs58';
 import { FC, useCallback } from 'react';
 import { notify } from "../utils/notifications";
 import {Program, AnchorProvider, web3, utils, BN, setProvider} from "@coral-xyz/anchor"
+
 import idl from "./bank.json"
 import { Solanapdas } from "./bank"
+import { PublicKey } from '@solana/web3.js';
+
+const idl_string = JSON.stringify(idl)
+const idl_object = JSON.parse(idl_string)
+const programID = new PublicKey(idl.address)
 
 
 export const Lend: FC = () => {
