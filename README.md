@@ -13,7 +13,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] duplicate components/SignMessage.tsx and rename to Lend.tsx
 - [ ] Remove the boilerplate from Lend: const onClick 
 - [ ] Change button to null -> onClick={null} in Lend
-- [ ] Use anchor library -> yarn add "@coral-xyz/anchor"
+- [x] Use anchor library -> yarn add "@coral-xyz/anchor"
 
 ## Solana dApp Scaffold Next
 
