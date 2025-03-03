@@ -21,6 +21,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [ ] import { PublicKey } from '@solana/web3.js';
 - [x] Stringify the idl, add const idl_string, const idl_object, const programID 
 - [ ] Add const getProvider = () => { }
+- [ ] import useConnection from wallet-adapter-react
 
 ## Solana dApp Scaffold Next
 
