@@ -12,6 +12,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] /src/views/basics/index.tsx —> change <SignMessage /> to <Lend /> and add import
 - [x] duplicate components/SignMessage.tsx and rename to Lend.tsx
 - [ ] Remove the boilerplate from Lend: const onClick 
+- [ ] Change button to null -> onClick={null} in Lend
 
 ## Solana dApp Scaffold Next
 
