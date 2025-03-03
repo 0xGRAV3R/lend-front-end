@@ -16,8 +16,8 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] Use anchor library -> yarn add "@coral-xyz/anchor"
 - [x] import {Program, AnchorProvider, web3, utils, BN, setProvider} from "@coral-xyz/anchor"
 - [x] copy idl/bank.json and types/bank.ts and paste it inside components folder
-- [ ] import idl from "./bank.json"
-- [ ] import { Solanapdas } from "./bank"
+- [x] import idl from "./bank.json"
+- [x] import { Solanapdas } from "./bank"
 - [ ] Stringify the idl, add const idl_string, const idl_object, const programID 
 
 ## Solana dApp Scaffold Next

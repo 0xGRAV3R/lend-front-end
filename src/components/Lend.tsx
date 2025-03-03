@@ -5,6 +5,9 @@ import bs58 from 'bs58';
 import { FC, useCallback } from 'react';
 import { notify } from "../utils/notifications";
 import {Program, AnchorProvider, web3, utils, BN, setProvider} from "@coral-xyz/anchor"
+import idl from "./bank.json"
+import { Solanapdas } from "./bank"
+
 
 export const Lend: FC = () => {
     const { publicKey, signMessage } = useWallet();
