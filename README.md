@@ -10,6 +10,7 @@ This is a simple lending dApp built on Solana using dapp-scaffold. It allows use
 - [x] yarn install
 - [x] yarn run dev
 - [ ] /src/views/basics/index.tsx —> change <SignMessage /> to <Lend /> and add import
+- [ ] duplicate components/SignMessage.tsx and rename to Lend.tsx
 
 ## Solana dApp Scaffold Next
 
