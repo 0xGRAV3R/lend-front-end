@@ -94,6 +94,18 @@ export const Lend: FC = () => {
                         Create Lend 
                     </span>
                 </button>
+
+                <button
+                    className="group w-60 m-2 btn animate-pulse bg-gradient-to-br from-indigo-500 to-fuchsia-500 hover:from-white hover:to-purple-300 text-black"
+                    onClick={getLends} 
+                >
+                    <div className="hidden group-disabled:block">
+                        Wallet not connected
+                    </div>
+                    <span className="block group-disabled:hidden" > 
+                        Fetch Lends 
+                    </span>
+                </button>
             </div>
         </div>
     );
