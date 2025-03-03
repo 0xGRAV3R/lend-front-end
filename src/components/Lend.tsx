@@ -16,9 +16,14 @@ const programID = new PublicKey(idl.address)
 
 
 export const Lend: FC = () => {
-    const { publicKey, signMessage } = useWallet();
-    const { connection } = useConnection()
+    const ourWallet = useWallet();
+    const connection = useConnection()
 
+    const getProvider = () => {
+        const provider = new AnchorProvider(connection, ourWallet, AnchorProvider.defaultOptions())
+        setProvider(provider)
+        return provider
+    }
 
     return (
         <div className="flex flex-row justify-center">
